@@ -23,3 +23,11 @@ route.use((req) => {
   const decompressed = req.read();
 });
 ```
+
+## Options
+
+The `transferOnly` option can be used to leave Content-Encodings intact (i.e., the request body will only be decoded based on the Transfer-Encoding header).
+
+```js
+route.use(decompress({ transferOnly: true }));
+```
