@@ -9,7 +9,7 @@ npm install --save vapr-decompress
 
 ## Usage
 
-The `vapr-decompress` plugin decompresses the request body based on the Content-Encoding and Transfer-Encoding headers. If someone makes a request with an unsupported encoding, a they'll receive `415 Unrecognized Content-Encoding` or `501 Unrecognized Transfer-Encoding`.
+This plugin decompresses the request body based on the Content-Encoding and Transfer-Encoding headers.
 
 Any options passed to the plugin are forwarded to the [zlib](https://nodejs.org/api/zlib.html#zlib_class_options) core module.
 
