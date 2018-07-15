@@ -1,6 +1,6 @@
 {
   "name": "vapr-decompress",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A Vapr plugin for decompressing request bodies",
   "main": "lib/index.js",
   "peerDependencies": {
